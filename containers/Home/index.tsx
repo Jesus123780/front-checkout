@@ -12,7 +12,8 @@ import {
 import { getGlobalStyle } from 'pkg-components/helpers'
 import { paymentMethodCards } from './helpers'
 import { Card } from '../Card'
-import { useFormTools, getCardType } from 'npm-pkg-hook'
+import { getCardType } from 'npm-pkg-hook/src/hooks/getCardType'
+import { useFormTools } from 'npm-pkg-hook/src/hooks/useFormTools'
 import styles from './styles.module.css'
 
 export const Home = () => {
