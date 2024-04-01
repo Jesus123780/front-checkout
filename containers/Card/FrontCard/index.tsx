@@ -8,6 +8,7 @@ interface FrontCardProps {
     iconType?: string
     onClick: () => void
 }
+
 export const FrontCard: React.FC<FrontCardProps> = ({
     value = '',
     dueDate = '',
