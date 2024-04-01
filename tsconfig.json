@@ -26,6 +26,8 @@
     "**/*.tsx"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "node_modules/pkg-components",
+    "node_modules/npm-pkg-hook"
   ]
 }
