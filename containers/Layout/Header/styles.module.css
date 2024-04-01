@@ -1,0 +1,33 @@
+.content {
+    background-color: #f0f0f0;
+
+}
+.header {
+    align-items: center;
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    min-height: 5rem;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    max-width: var(--width-max-desktop);
+    margin: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+@media (min-width: 40rem) and (min-width: 62rem)
+{
+  .header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }   
+}

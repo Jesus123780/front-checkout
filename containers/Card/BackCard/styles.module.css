@@ -1,0 +1,40 @@
+.text {
+    color: #000000;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.card-reverse__content-line {
+    background-color: #282828;
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.card-reverse__name,
+.card-reverse__due {
+    font-size: 12px;
+    margin: 6px 0;
+    text-transform: uppercase;
+}
+
+.card-reverse__content__info {
+    align-items: center;
+    background-color: var(--color-base-white);
+    display: flex;
+    height: 20px;
+    justify-content: flex-end;
+    margin: 8px auto auto;
+    padding-right: 7px;
+    width: 184px;
+}
+
+.card-reverse {
+    box-shadow: var(--box-shadow-sm);
+    height: 100%;
+    border-radius: 5px;
+}

@@ -1,0 +1,50 @@
+.container-wrap {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: var(--width-max-desktop);
+    padding-left: .875rem;
+    padding-right: .875rem;
+    position: relative;
+    width: 100%;
+}
+
+.content {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -.5rem;
+    margin-left: -.5rem;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.card-payment_add-card_button {
+    padding: 1.5rem 0;
+    width: 100%;
+    background: #FAFAFA;
+    border-radius: .5rem;
+    border: .0625rem solid rgba(90, 90, 90, 0.33);
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+
+.col {
+    flex-basis: 40%;
+    max-width: 40%;
+}
+
+.payment_method_type_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0.125rem 0.75rem rgba(27, 27, 27, 0.15);
+}

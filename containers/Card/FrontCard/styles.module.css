@@ -1,0 +1,107 @@
+.card-front__rectangle__is-disabled,
+.card-front__rectangle {
+    border-radius: 0px 30.294px 0px 0px;
+    height: 134.85px;
+    left: -30px;
+    position: absolute;
+    top: 65.52px;
+    width: 119.76px;
+    z-index: -1;
+}
+
+.card-front__rectangle__is-disabled {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, rgba(46, 46, 46, 0.2) 97.56%);
+}
+
+.card-front__rectangle {
+    background: linear-gradient(180deg, rgba(255, 232, 226, 0.18) 0%, rgba(244, 180, 162, 0.2) 97.56%);
+}
+
+.card-front__circle {
+    background: linear-gradient(180deg, rgba(244, 180, 162, 0.105) 0%, rgba(214, 91, 80, 0.3) 100%);
+    border-radius: 50%;
+    height: 125.63px;
+    position: absolute;
+    right: -15.58px;
+    top: -55.58px;
+    width: 125.51px;
+    z-index: -1;
+}
+.card-front__circle button {
+    position: absolute;
+    bottom: 45px;
+    left: 30px;
+    right: 0;
+    width: 50px;
+}
+
+.text {
+    color: var(--color-text-black);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.card-front__content-dots {
+    color: var(--color-text-black);
+    display: flex;
+    font-style: normal;
+    font-weight: 800;
+    justify-content: space-between;
+    letter-spacing: 4px;
+    margin-top: 35px;
+    width: max-content;
+    height: 20px;
+
+
+}
+
+.card-front__content-dots__dot {
+    background-color: var(--color-primary-red);
+    border-radius: 50%;
+    height: 6px;
+    max-height: 6px;
+    max-width: 6px;
+    min-height: 6px;
+    min-width: 6px;
+    width: 6px;
+    position: relative;
+    background-color: red;
+}
+
+.card-front__name,
+.card-front__due {
+    bottom: 10px;
+    font-size: 12px;
+    margin: 6px 0;
+    position: absolute;
+    right: 20px;
+    text-transform: capitalize;
+}
+
+.card-front__content__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-front {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-front__content-dots__dot {
+    background-color: #000000;
+    border-radius: 50%;
+    height: 8px;
+    margin-right: 5px;
+    width: 8px;
+  }
+  
+  .card-front__content-dots__dot.space {
+    margin-right: 15px;
+  }
