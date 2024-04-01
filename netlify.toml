@@ -1,0 +1,2 @@
+[build]
+  command = "npm install pkg-components npm-pkg-hook && npm run build"
